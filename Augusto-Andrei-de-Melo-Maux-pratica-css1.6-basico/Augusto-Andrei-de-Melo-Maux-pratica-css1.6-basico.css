@@ -1,0 +1,123 @@
+
+body{
+    font-family: Ubuntu;
+} /*Fonte de todos os elementos de texto do arquivo*/
+
+/*Estilos da Seção 1*/
+
+.section1{
+    background-color: #fece31;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.section1 h1{
+    color: white;
+    font-weight: lighter;
+    font-size: 44px;
+}
+
+.section1 em{
+    font-size: 14px;
+    width: 400px;
+    display: inline block; /*Linha se comporta como um bloco*/
+}
+
+.section1 figcaption{
+    font-size: smaller;
+}
+
+/*Estilos da Seção 2*/
+
+.section2{
+    padding-top: 16px;
+}
+
+.section2 .box{
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.section2 .box:last-child{
+    margin-right: 0;
+}
+
+.section2 .box .figure1 .imgbloco{
+    margin: 0;
+    background-color: #d3152c;
+}
+
+.section2 .box .figure2 .imgbloco{
+    margin: 0;
+    background-color: #386de5;
+}
+
+.section2 .box .figure3 .imgbloco{
+    margin: 0;
+    background-color: #14982d;
+}
+
+.section2 .box span{
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.section2 .box figure img{
+    max-width: 95%;
+}
+
+.section2 .box strong{
+    display: block; 
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.section1 .box p{
+    font-size: 12px;
+}
+
+.section2 .box a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.section2 .box{
+    background-color: rgb(255, 255, 255);
+}
+
+.section2{
+    background-color: rgb(250, 250, 250);
+}
+
+.a1{
+    color: #d3152c;
+}
+
+.a2{
+    color: #386de5;
+}
+
+.a3{
+    color: #14982d;
+}
+
+.section2 .chrome span{
+    color: #d3152c;
+}
+
+.section2 .search span{
+    color: #386de5;
+}
+
+.section2 .maps span{
+    color: #14982d;
+}
+
+.section2 .box{
+    padding: 5px;
+}
